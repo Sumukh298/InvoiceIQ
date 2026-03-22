@@ -11,5 +11,11 @@ async function uploadFile() {
     });
 
     const data = await res.json();
-    document.getElementById("output").innerText = data.text;
+
+document.getElementById("output").innerText =
+    "📌 GSTIN: " + data.gstin + " (" + data.confidence.gstin + ")\n" +
+    "🧾 Invoice: " + data.invoice + " (" + data.confidence.invoice + ")\n" +
+    "💰 Total: " + data.total + " (" + data.confidence.total + ")\n\n" +
+    "----- RAW TEXT -----\n" +
+    data.text;
 }
