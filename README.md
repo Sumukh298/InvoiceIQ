@@ -120,7 +120,7 @@ npm run dev
 
 ## 👨‍💻 Author
 
-**Sumukh Suresh & Varsha R**
+**Sumukh Suresh, Varsha R & Shyam Ramachandran**
 
 LinkedIn: www.linkedin.com/in/sumukhsureshcs
 
